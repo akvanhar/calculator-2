@@ -9,3 +9,4 @@ from arithmetic import *
 
 
 # Your code goes here
+print test
