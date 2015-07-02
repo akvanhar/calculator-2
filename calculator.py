@@ -25,10 +25,10 @@ def calculator(calc_list):
         division = divide(int(calc_list[1]), int(calc_list[2]))
         print division
     elif calc_list[0] == "square":
-        squarednum = square(int(calc_list[1]), int(calc_list[2]))
+        squarednum = square(int(calc_list[1]))
         print squarednum
     elif calc_list[0] == "cube":
-        cubenum = cube(int(calc_list[1]), int(calc_list[2]))
+        cubenum = cube(int(calc_list[1]))
         print cubenum
     elif calc_list[0] == "pow":
         pownum = power(int(calc_list[1]), int(calc_list[2]))
